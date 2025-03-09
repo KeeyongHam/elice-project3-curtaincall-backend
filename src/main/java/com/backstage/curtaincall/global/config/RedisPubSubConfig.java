@@ -19,7 +19,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 @EnableCaching
 @Configuration
-public class PubSubRedisConfig {
+public class RedisPubSubConfig {
 
     @Bean
     RedisMessageListenerContainer redisContainer(RedisConnectionFactory redisConnectionFactory,

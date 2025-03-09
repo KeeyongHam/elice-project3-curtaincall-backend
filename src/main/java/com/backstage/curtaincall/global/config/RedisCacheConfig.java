@@ -1,4 +1,4 @@
-package com.backstage.curtaincall.specialProduct.config;
+package com.backstage.curtaincall.global.config;
 import com.backstage.curtaincall.specialProduct.dto.SpecialProductDto;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.cache.CacheManager;
